@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Custom CSS for full-screen-banner */
+.container-fluid.full-screen-banner {
+    background-image: url(https://www.jetbrains.com/aqua/img/header-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    margin-top: -12%;
+    margin-bottom: 5%;
+}
+
+/* Video Section Responsive Here */
+@media screen and (max-width: 976px) {
+    .aqua-video {
+        width: 500px !important;
+        justify-content: center !important;
+    }
+}
+@media screen and (max-width:540px) {
+    .aqua-video {
+        width: 400px !important;
+        justify-content: center !important;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .aqua-video {
+        width: 300px !important;
+
+    }
+
+}
