@@ -16,9 +16,9 @@
   <style>
     /* Font Family */
     body {
-      font-family: JetBrains Sans;
-      background-color: #27282c;
       color: white;
+      background-color: black;
+      font-family: JetBrains Sans;
     }
   </style>
 </head>
@@ -98,94 +98,56 @@
   </nav>
   <!-- Navbar Two Section End Here -->
 
-  <!-- Home Section Start Here -->
-  <div class="container-fluid full-screen-banner">
-    <div class="container px-4 text-center">
-      <div class="row gx-5 align-items-center">
-        <div class="col-sm-12 col-md-6 pt-md-5">
-          <h1 class="mb-4 text-light" style="font-size: 72px; margin-top: 50%;">JetBrains Aqua <button type="button"
-              class="btn btn-light mb-5 disabled">Preview</button> </h1>
-          <div class="mb-4 text-light fs-2" style="margin-left:35px !important;">An IDE for writing tests you can be
-            proud of</div>
-          <div class="row mt-5 responsive-preview">
-            <div class="col-6">
-              <button class="btn btn-light px-5 py-3 rounded-pill" type="submit">Download Preview</button>
-            </div>
-            <div class="col-2">
-              <button type="button" class="btn btn-outline-light rounded-pill px-5 py-3">Pricing</button>
-            </div>
-          </div>
-        </div>
-        <div class="container-fluid col-sm-12" style="margin-top: 20%;">
-          <div><video controls="" playsinline="" width="800" class="aqua-video"
-              poster="https://www.jetbrains.com/aqua/img/Aqua_LP_videoPreview.png">
-              <source src="https://resources.jetbrains.com/storage/products/aqua/video/Aqua_preview_v2.mp4"
-                type="video/mp4">
-            </video></div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Home Section End Here -->
-
-  <hr class="m-0 text-light mb-5">
-
-  <!-- Why do you need Aqua Section Here -->
+  <!-- Home section start here -->
   <div class="container">
-    <h2 class="my-5 ">Why do you need Aqua?</h2>
-  </div>
-  <div class="container">
-    <div class="d-flex">
-      <div class="first">
-        <img src="./assest/image/Designed for.PNG" alt="">
-        <h3 class="my-2">Designed for test automation</h3>
-        <p>Aqua is the first JetBrains IDE created specifically for test automation. It's an all-in-one workspace that
-          will help you boost your quality engineering productivity.</p>
+    <div class="row">
+      <div class="col-md-6" style="margin-top: 10%;">
+        <h2 style="font-size: 43px;">Aqua</h2>
+        <h1 style="font-size: 92px; margin-top: 5%;">The IDE for test automation</h1>
       </div>
-      <div class="first">
-        <img src="./assest/image/web-inspector.png" alt="">
-        <h3 class="my-2">Web Inspector</h3>
-        <p class="width-20">Aqua is the first JetBrains IDE created specifically for test automation. It's an all-in-one
-          workspace that
-          will help you boost your quality engineering productivity.</p>
+      <div class="d-flex">
+        <button type="button" class="btn btn-light px-5 py-2 m-3 rounded-5" style="font-size: 20px;">Download</button>
+        <button type="button" class="btn btn-outline-dark text-light px-5 m-3 rounded-5" style="font-size: 20px;">Pricing</button>
+      </div>
+      <div class="col-md-6">
+        <img class="bg-img" src="./assest/image/bg-demo.png" alt="">
       </div>
     </div>
   </div>
-  <!-- Second Section Start -->
-  <div class="container my-5">
-    <div class="d-flex">
-      <div class="first">
-        <img src="./assest/image/support-for-popular.png" alt="">
-        <h3 class="my-2">Support for popular testing frameworks</h3>
-        <p>Aqua is the first JetBrains IDE created specifically for test automation. It's an all-in-one workspace that
-          will help you boost your quality engineering productivity.</p>
-      </div>
-      <div class="first">
-        <img src="./assest/image/support-for-multiple.png" alt="">
-        <h3 class="my-2">Support for multiple languages</h3>
-        <p>Aqua is the first JetBrains IDE created specifically for test automation. It's an all-in-one workspace that
-          will help you boost your quality engineering productivity.</p>
-      </div>
-    </div>
-  </div>
-  <!-- Third Section Start Here -->
-  <div class="container my-5">
-    <div class="d-flex">
-      <div class="first">
-        <img src="./assest/image/comprehensive.PNG" alt="">
-        <h3 class="my-2">Comprehensive feature set</h3>
-        <p>Aqua is the first JetBrains IDE created specifically for test automation. It's an all-in-one workspace that
-          will help you boost your quality engineering productivity.</p>
-      </div>
-      <div class="first">
-        <img src="./assest/image/modern-ui.png" alt="">
-        <h3 class="my-2">Modern UI</h3>
-        <p>Aqua is the first JetBrains IDE created specifically for test automation. It's an all-in-one workspace that
-          will help you boost your quality engineering productivity.</p>
-      </div>
-    </div>
-  </div>
-  <!-- Why do you need Aqua Section End Here -->
+
+
+  <!-- Home section end here -->
+
+  <style>
+    /* Slider images here */
+    .bg-img {
+      position: absolute;
+      z-index: -9999;
+      top: -169px;
+      width: 907px;
+      right: 0px;
+      overflow-y: hidden;
+    }
+
+    /* Font Style H1 Tag */
+    @media screen and (max-width:1400px) {
+      h1 {
+        font-size: 73px !important;
+
+      }
+    }
+
+    @media screen and (max-width:1000px) {
+      h1 {
+        font-size: 50px !important;
+
+      }
+
+    }
+  </style>
+
+
+
 
 
 
