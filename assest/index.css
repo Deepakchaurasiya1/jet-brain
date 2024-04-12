@@ -1,4 +1,4 @@
-*{
+* {
     /* margin: 0px;
     padding: 0px; */
 }
@@ -11,52 +11,63 @@
     width: 907px;
     right: 0px;
     overflow-y: hidden;
-  }
+}
 
-  /* Font Style H1 Tag */
-  @media screen and (max-width:1400px) {
+/* Font Style H1 Tag */
+@media screen and (max-width:1400px) {
     h1 {
-      font-size: 73px !important;
+        font-size: 73px !important;
 
     }
-  }
+}
 
-  @media screen and (max-width:1000px) {
+@media screen and (max-width:1000px) {
     h1 {
-      font-size: 50px !important;
+        font-size: 50px !important;
 
     }
 
-  }
+}
 
-  /* Video Seection Start Here */
-  .video-container {
+/* Button Responsive Slider */
+/* Adjust button size for even smaller screens */
+@media only screen and (max-width: 500px) {
+    .pricingbtn {
+        font-size: 12px;
+        padding: 6px 12px;
+        margin: 3px;
+    }
+}
+
+/* Video Seection Start Here */
+.video-container {
     display: flex;
     justify-content: center;
     position: relative;
     max-width: 100%;
     overflow: hidden;
-  }
+}
 
-  .video-border {
+.video-border {
     border: solid 1px #4ca6ff;
     border-radius: 30px;
     max-width: 100%;
     height: auto;
     display: block;
     margin: auto;
-  }
+}
 
-  .deepak {
+.deepak {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-  }
+}
 
-  @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .video-container {
-      padding: 0 10px;
+        padding: 0 10px;
     }
-  }
+}
+
