@@ -22,4 +22,4 @@ video.addEventListener('play', function () {
 video.addEventListener('pause', function () {
   button.style.display = 'block';
 });
-
+// Video Section End Here
