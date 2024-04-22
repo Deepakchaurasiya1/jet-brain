@@ -1,6 +1,10 @@
 * {
-    /* margin: 0px;
-    padding: 0px; */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+    
+
 }
 
 /* Slider images here */
@@ -70,5 +74,39 @@
         padding: 0 10px;
     }
 }
+
 /* Video Seection End Here */
 
+/* Unlock the potential Sction Start Here */
+
+/* Box Learn More Button Here */
+
+.btn{
+    color: white !important;
+  }
+  :hover.btn{
+       text-decoration: underline;
+  }
+/* Box Learn More Button End Here */
+
+/* Spot Light Section Here */
+
+.spotlight:hover {
+    --active: 1;
+}
+
+.spotlight:after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(circle at calc(var(--x) * 1px) calc(var(--y) * 1px), #0068fd, transparent 15vmin);
+    background-attachment: fixed;
+    opacity: var(--active, 0);
+    transition: opacity 0.2s;
+    pointer-events: none;
+
+}
+/* Spot Light Section End Here */
+
+/* Unlock the potential Sction End Here */
