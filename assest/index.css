@@ -81,10 +81,10 @@
 
 /* Box Learn More Button Here */
 
-.btn{
+.btnunlock{
     color: white !important;
   }
-  :hover.btn{
+  :hover.btnunlock{
        text-decoration: underline;
   }
 /* Box Learn More Button End Here */
