@@ -291,28 +291,29 @@
     <div class="card rounded-4 p-3 mt-4" style="background-color:#0068fd;">
       <div class="row">
         <div class="col-lg-8 mt-3">
-          <button type="button" class="btn btn-dark py-3 px-3 my-2">Web Inspector</button>
-          <button type="button" class="btn btn-dark py-3 px-3 my-2">HTTP client</button>
-          <button type="button" class="btn btn-dark py-3 px-3 my-2">Docker</button>
-          <button type="button" class="btn btn-dark py-3 px-3 my-2">Database support</button>
-          <button type="button" class="btn btn-dark py-3 px-3 my-2">Test management systems</button>
+          <button type="button" class="tab-btn btn btn-dark py-3 px-3 my-2" content-id="web-inspector">Web
+            Inspector</button>
+          <button type="button" class="tab-btn btn btn-dark py-3 px-3 my-2" content-id="http-client">HTTP
+            client</button>
+          <button type="button" class="tab-btn btn btn-dark py-3 px-3 my-2" content-id="docker">Docker</button>
+          <button type="button" class="tab-btn btn btn-dark py-3 px-3 my-2" content-id="database">Database
+            support</button>
+          <button type="button" class="tab-btn btn btn-dark py-3 px-3 my-2" content-id="test-management">Test management
+            systems</button>
         </div>
         <div class="col-lg-4">
         </div>
-        <div class="row pt-3">
-          <div class="col-lg-8">
-            <img src="https://www.jetbrains.com/aqua/img/screenshots/web-inspector.png" alt="" class="img-fluid">
-          </div>
-          <div class="col-lg-4">
-            <h3 class="fs-1 mt-4">Web Inspector</h3>
-            <p class="fs-5">Aqua’s embedded Web Inspector generates a unique CSS or XPath locator for a selected element
-              on a web page and adds it to the source code. When Web Inspector is active, CSS and XPath code completion
-              suggests and highlights locators for the most important web page elements.</p>
-          </div>
+        <div class="row pt-3" id="tab-content">
+          <!-- Default content (Web Inspector) will be dynamically replaced here -->
         </div>
       </div>
     </div>
   </div>
+  <!-- Aqua Features End Section -->
+
+ 
+  
+ 
 
 
 
@@ -348,20 +349,9 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-<!-- Owl JS Include Here -->
-<script src="jquery.min.js"></script>
-<script src="owlcarousel/owl.carousel.min.js"></script>
+  <!-- Owl JS Include Here -->
+  <script src="jquery.min.js"></script>
+  <script src="owlcarousel/owl.carousel.min.js"></script>
 
   <!-- Custome JS Link Here -->
   <script src="./assest/index.js"></script>
