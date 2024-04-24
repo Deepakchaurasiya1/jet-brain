@@ -3,8 +3,6 @@
     padding: 0px;
     box-sizing: border-box;
     color: white;
-    
-
 }
 
 /* Slider images here */
@@ -81,12 +79,14 @@
 
 /* Box Learn More Button Here */
 
-.btnunlock{
+.btnunlock {
     color: white !important;
-  }
-  :hover.btnunlock{
-       text-decoration: underline;
-  }
+}
+
+:hover.btnunlock {
+    text-decoration: underline;
+}
+
 /* Box Learn More Button End Here */
 
 /* Spot Light Section Here */
@@ -107,6 +107,127 @@
     pointer-events: none;
 
 }
+
 /* Spot Light Section End Here */
 
 /* Unlock the potential Sction End Here */
+
+/* Sponser Logo Start Here */
+@keyframes slides {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.logos {
+    overflow: hidden;
+    padding: 30px 0px;
+    white-space: nowrap;
+    position: relative;
+}
+
+.logos:before,
+.logos:after {
+    position: absolute;
+    top: 0;
+    content: '';
+    width: 250px;
+    height: 100%;
+    z-index: 2;
+}
+
+.logo_items {
+    display: inline-block;
+    animation: 40s slides infinite linear;
+}
+
+.logo_items img {
+    padding-left: 200px;
+}
+
+.logos:hover .logo_items {
+    animation-play-state: paused;
+}
+
+.logo_items img {
+    height: 100px;
+}
+
+/* Sponser Logo End Here */
+
+/* Footer Section Here */
+.social-icon a {
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icon a:hover {
+    transform: translateY(-5px);
+}
+
+/* Footer Section End Here */
+
+/* Up to Down Button Show Start Here */
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.scroll-to-top i {
+    font-size: 24px;
+    color: #fff;
+    background-color: #0068fd;
+    padding: 10px;    
+}
+
+.scroll-to-top i:hover {
+    background-color: #0056b3;
+}
+/* Up to Down Button Close Here */
+
+/* Side Slider Smooth Start Here */
+::-webkit-scrollbar {
+    width: 10px;
+    background-color:#0068fd;
+}
+
+::-webkit-scrollbar-thumb {
+    background:black;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background:#0068fd;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    cursor: pointer;
+    z-index: 1000;
+}
+.scroll-to-top i {
+    font-size: 24px;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.scroll-to-top i:hover {
+    background-color: #0056b3;
+}
+/* Side Slider Smoth End Here */

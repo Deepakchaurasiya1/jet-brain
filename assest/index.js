@@ -33,7 +33,6 @@ const updateCursor = ({ x, y }) => {
 document.body.addEventListener("pointermove", updateCursor);
 // Spot Light Section End Here
 
-
 // Tab Section Start Here Change on this click button to content & Images section
 var tabButtons = document.querySelectorAll(".tab-btn");
 var tabContent = document.getElementById("tab-content");
@@ -116,3 +115,44 @@ function replaceContent(contentId) {
       break;
   }
 }
+
+// UP to Down Scroll Button Here
+window.addEventListener("scroll", function () {
+  var scrollPosition = window.scrollY;
+
+  // Adjust this value as per your requirement
+  if (scrollPosition > 300) {
+    document.getElementById("scroll-to-top").style.display = "block";
+  } else {
+    document.getElementById("scroll-to-top").style.display = "none";
+  }
+});
+
+document.getElementById("scroll-to-top").addEventListener("click", function () {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+});
+
+// UP to Down Scroll Button End Here
+
+// Side Slide Smooth Start Here
+window.addEventListener("scroll", function () {
+  var scrollPosition = window.scrollY;
+
+  if (scrollPosition > 300) {
+    document.getElementById("scroll-to-top").style.display = "block";
+  } else {
+    document.getElementById("scroll-to-top").style.display = "none";
+  }
+});
+
+document.getElementById("scroll-to-top").addEventListener("click", function () {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+});
+
+// Side Slider Smooth End Here
